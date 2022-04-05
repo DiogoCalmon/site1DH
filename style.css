@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    max-height: 3000px;
+}
+header{
+    position: absolute;
+    width: 1400px;
+    height: 100px;
+    box-shadow: 0px 2px 10px; 
+}
+.logo{
+    position:relative;
+    top:30px;
+    left:150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    color:rgb(88, 88, 88);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 32px;
+}
+.detalhes{
+    position:relative;
+    font-size: 18px;
+    left:180px;
+    bottom: 33px;
+    line-height: 20px;
+    color: rgb(146, 146, 146);
+}
+.menu{
+    position:absolute;
+    left: 1000px;
+    bottom: 38px;
+    font-size: 50px;
+    color: gray;
+}
+.image1{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background: url(/imagens/Rectangle\ 3.png);
+    left:160px;
+    top: 150px;
+    background-size: cover;
+}
+.circulo{
+    position: absolute;
+    bottom:230px;
+    left:20px;
+}
+.seta{
+    position: absolute;
+    top: 241px;
+    left:35px;
+}
+.circulo2{
+    position: absolute;
+    top:235px;
+    left:935px;
+}
+.seta2{
+    transform: rotate(180deg);
+    position: absolute;
+    left:950px;
+    top:245px;
+}
+.image2{
+    position: relative;
+    margin: 200px;
+    height: 280px;
+    width: 450px;
+    background: url(/imagens/Rectangle\ 6.png);
+    background-size: cover;
+    right: 40px;
+}
+.informacoes{
+    width: 450px;
+    height: 150px;
+    background-color:rgb(199, 199, 199);
+    position: absolute;
+    top: 980px;
+    left: 160px;
+    color: rgb(97, 97, 97);
+}
+.image3{
+    position: relative;
+    margin: 200px;
+    height: 280px;
+    width: 450px;
+    background: url(/imagens/Rectangle\ 7.png);
+    background-size: cover;
+    left: 510px;
+    bottom: 480px;
+}
+.preco{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:15px;
+    position: absolute;
+    bottom:75px;
+    font-weight:400;
+}
+.info1{
+    position:absolute;
+    top:60px;
+    padding:10px;
+}
+.informacoes1{
+    width: 450px;
+    height: 150px;
+    background-color:rgb(199, 199, 199);
+    position: absolute;
+    top: 980px;
+    right: 150px;
+    color: rgb(97, 97, 97);
+}
+.preco1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:15px;
+    position: absolute;
+    bottom:75px;
+    font-weight: 400;
+}
+.info2{
+    position:absolute;
+    top:60px;
+    padding:10px;
+}
+.caixas{
+    position:relative;
+    bottom: 350px;
+    left: 570px;
+}
+.frase1{
+    color:rgb(77, 77, 77);
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.frase2{
+    position: relative;
+    margin: 200px;
+    height: 280px;
+    width: 1200px;
+    background: url(/imagens/7e8d3adc4a33bb6589f414c41ec27b4a.jpg);
+    background-size:contain;
+    right: 700px;
+    bottom: 150px;
+    opacity: 0.7;
+}
+.Industrial{
+    position: absolute;
+    top: 100px;
+    left: 460px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 20px;
+}
+.frase3{
+    position: relative;
+    margin: 200px;
+    height: 280px;
+    width: 1200px;
+    background: url(/imagens/46d7d9d8d89c08abf39246caa90321ed.jpg);
+    background-size:contain;
+    right: 700px;
+    bottom: 320px;
+    opacity: 0.7;
+}
+.Modern{
+    position: absolute;
+    top: 100px;
+    left: 460px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 20px;
+}
+.frase4{
+    position: relative;
+    margin: 200px;
+    height: 280px;
+    width: 1200px;
+    background: url(/imagens/ef59e2b4ab9908b7fe4a69bf8c894dd3.jpg);
+    background-size:contain;
+    right: 700px;
+    bottom: 490px;
+    opacity: 0.7;
+}
+.Classic{
+    position: absolute;
+    top: 100px;
+    left: 460px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 20px;
+}
+.preto{
+    width: 1400px;
+    height: 700px;
+    background-color: black;
+    position: relative;
+    bottom: 600px;
+}
