@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
-    max-height: 3000px;
+    width: 800px;
+    margin: 0 auto;
+    max-height: 100%;
 }
 header{
     position: absolute;
